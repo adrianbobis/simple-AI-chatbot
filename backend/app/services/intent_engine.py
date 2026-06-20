@@ -1,51 +1,59 @@
 class IntentEngine:
 
-    soccer_words = [
+    SOCCER_WORDS = [
         "soccer",
         "football",
         "player",
         "team",
         "touch",
+        "touches",
         "pass",
+        "passes",
         "movement",
-        "position",
+        "positioning",
+        "mistake",
+        "mistakes",
+        "decision",
+        "decisions",
         "speed",
         "distance",
-        "mistake",
-        "decision",
-        "performance",
         "run",
+        "runs",
+        "performance",
         "analysis",
+        "goal",
+        "assist",
     ]
 
-    compliment_words = [
+    COMPLIMENT_WORDS = [
         "perfect",
         "great",
         "excellent",
         "awesome",
         "amazing",
-        "good job",
+        "fantastic",
+        "brilliant",
     ]
 
-    thanks_words = ["thank", "thanks", "ok", "okay", "understand", "got it"]
+    THANK_WORDS = ["thank you", "thanks", "okay", "ok", "understood", "got it"]
 
-    @staticmethod
-    def is_soccer(message):
-
-        text = message.lower()
-
-        return any(word in text for word in IntentEngine.soccer_words)
-
-    @staticmethod
-    def is_compliment(message):
+    @classmethod
+    def is_soccer(cls, message):
 
         text = message.lower()
 
-        return any(word in text for word in IntentEngine.compliment_words)
+        return any(word in text for word in cls.SOCCER_WORDS)
 
-    @staticmethod
-    def is_thanks(message):
+    @classmethod
+    def is_compliment(cls, message):
 
         text = message.lower()
 
-        return any(word in text for word in IntentEngine.thanks_words)
+        return any(word in text for word in cls.COMPLIMENT_WORDS)
+
+    @classmethod
+    def is_thanks(cls, message):
+
+        text = message.lower().strip()
+
+        return any(word in text for word in cls.THANK_WORDS)
