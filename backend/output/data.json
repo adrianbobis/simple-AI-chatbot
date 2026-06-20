@@ -1,0 +1,1399 @@
+{
+  "format_version": "1.0.0",
+  "video_id": "3dcf578f",
+  "video_path": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\uploads\\3dcf578f.mp4",
+  "analyzed_at": "2026-06-17T13:23:38.557037+00:00",
+  "duration_s": 2.48,
+  "fps_processed": 12.701612903225806,
+  "tracker_used": "yolo",
+  "teams": [
+    {
+      "team_id": 1,
+      "name": "Team_1",
+      "color_bgr": [
+        0,
+        0,
+        1
+      ],
+      "color_hex": "#010000"
+    },
+    {
+      "team_id": 2,
+      "name": "Team_2",
+      "color_bgr": [
+        0,
+        0,
+        1
+      ],
+      "color_hex": "#010000"
+    }
+  ],
+  "players": [
+    {
+      "player_key": "team_1_player_1",
+      "team_id": 1,
+      "team_name": "Team_1",
+      "player_number": 1,
+      "jersey_number": null,
+      "crop_path": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\player_crops\\3dcf578f\\team_1_player_1.jpg",
+      "crop_quality": 0.9195584331314903
+    },
+    {
+      "player_key": "team_2_player_1",
+      "team_id": 2,
+      "team_name": "Team_2",
+      "player_number": 1,
+      "jersey_number": null,
+      "crop_path": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\player_crops\\3dcf578f\\team_2_player_1.jpg",
+      "crop_quality": 0.8460776169607367
+    },
+    {
+      "player_key": "team_1_player_2",
+      "team_id": 1,
+      "team_name": "Team_1",
+      "player_number": 2,
+      "jersey_number": null,
+      "crop_path": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\player_crops\\3dcf578f\\team_1_player_2.jpg",
+      "crop_quality": 0.811935431389045
+    },
+    {
+      "player_key": "team_1_player_3",
+      "team_id": 1,
+      "team_name": "Team_1",
+      "player_number": 3,
+      "jersey_number": null,
+      "crop_path": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\player_crops\\3dcf578f\\team_1_player_3.jpg",
+      "crop_quality": 0.6393704796204134
+    },
+    {
+      "player_key": "team_2_player_2",
+      "team_id": 2,
+      "team_name": "Team_2",
+      "player_number": 2,
+      "jersey_number": null,
+      "crop_path": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\player_crops\\3dcf578f\\team_2_player_2.jpg",
+      "crop_quality": 1.0
+    },
+    {
+      "player_key": "team_1_player_4",
+      "team_id": 1,
+      "team_name": "Team_1",
+      "player_number": 4,
+      "jersey_number": null,
+      "crop_path": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\player_crops\\3dcf578f\\team_1_player_4.jpg",
+      "crop_quality": 0.8350500843477004
+    },
+    {
+      "player_key": "team_1_player_5",
+      "team_id": 1,
+      "team_name": "Team_1",
+      "player_number": 5,
+      "jersey_number": null,
+      "crop_path": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\player_crops\\3dcf578f\\team_1_player_5.jpg",
+      "crop_quality": 0.7433375976212004
+    }
+  ],
+  "player_analytics": {
+    "team_1_player_1": {
+      "player_key": "team_1_player_1",
+      "counts": {
+        "touches": 0,
+        "passes": 0,
+        "movements": 1,
+        "positioning": 2,
+        "mistakes": 0,
+        "good_decisions": 3,
+        "bad_decisions": 0,
+        "opportunities_missed": 0,
+        "recommendations": 0,
+        "specific_moments": 0,
+        "ball_losses": 0,
+        "good_runs": 1
+      },
+      "touches": [],
+      "passes": [],
+      "movements": [
+        {
+          "action_id": "7773c658",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 120.09,
+            "max_speed_ms": 84.78,
+            "avg_speed_ms": 54.48
+          }
+        }
+      ],
+      "positioning": [
+        {
+          "action_id": "fed0825e",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.20444444444444443,
+            "end_s": 2.2044444444444444,
+            "start_frame": 32,
+            "end_frame": 56
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              108.0,
+              22.1
+            ]
+          }
+        },
+        {
+          "action_id": "7c0d2318",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.2831746031746034,
+            "end_s": 2.2831746031746034,
+            "start_frame": 34,
+            "end_frame": 58
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_1",
+            "pitch_pos": [
+              109.8,
+              24.4
+            ]
+          }
+        }
+      ],
+      "mistakes": [],
+      "good_decisions": [
+        {
+          "action_id": "7773c658",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 120.09,
+            "max_speed_ms": 84.78,
+            "avg_speed_ms": 54.48
+          }
+        },
+        {
+          "action_id": "fed0825e",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.20444444444444443,
+            "end_s": 2.2044444444444444,
+            "start_frame": 32,
+            "end_frame": 56
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              108.0,
+              22.1
+            ]
+          }
+        },
+        {
+          "action_id": "7c0d2318",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.2831746031746034,
+            "end_s": 2.2831746031746034,
+            "start_frame": 34,
+            "end_frame": 58
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_1",
+            "pitch_pos": [
+              109.8,
+              24.4
+            ]
+          }
+        }
+      ],
+      "bad_decisions": [],
+      "opportunities_missed": [],
+      "recommendations": [],
+      "specific_moments": [],
+      "ball_losses": [],
+      "good_runs": [
+        {
+          "action_id": "c4a70fca",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0.07873015873015873,
+            "end_s": 2.2831746031746034,
+            "start_frame": 2,
+            "end_frame": 58
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "description": "High-intensity run",
+            "max_speed_ms": 84.78,
+            "kind": "good_run"
+          }
+        }
+      ],
+      "movement_stats": {
+        "distance_m": 120.09,
+        "max_speed_ms": 84.78,
+        "avg_speed_ms": 54.48
+      }
+    },
+    "team_2_player_1": {
+      "player_key": "team_2_player_1",
+      "counts": {
+        "touches": 0,
+        "passes": 0,
+        "movements": 1,
+        "positioning": 2,
+        "mistakes": 0,
+        "good_decisions": 1,
+        "bad_decisions": 0,
+        "opportunities_missed": 0,
+        "recommendations": 0,
+        "specific_moments": 0,
+        "ball_losses": 0,
+        "good_runs": 1
+      },
+      "touches": [],
+      "passes": [],
+      "movements": [
+        {
+          "action_id": "c8d94fde",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 115.65,
+            "max_speed_ms": 81.29,
+            "avg_speed_ms": 50.65
+          }
+        }
+      ],
+      "positioning": [
+        {
+          "action_id": "d00bac9a",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.42539682539682544,
+            "end_s": 1.5746031746031746,
+            "start_frame": 16,
+            "end_frame": 40
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "0_1",
+            "pitch_pos": [
+              34.7,
+              35.0
+            ]
+          }
+        },
+        {
+          "action_id": "6238ed6f",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.3466666666666667,
+            "end_s": 1.6533333333333333,
+            "start_frame": 18,
+            "end_frame": 42
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "1_1",
+            "pitch_pos": [
+              35.1,
+              34.6
+            ]
+          }
+        }
+      ],
+      "mistakes": [],
+      "good_decisions": [
+        {
+          "action_id": "c8d94fde",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 115.65,
+            "max_speed_ms": 81.29,
+            "avg_speed_ms": 50.65
+          }
+        }
+      ],
+      "bad_decisions": [],
+      "opportunities_missed": [],
+      "recommendations": [],
+      "specific_moments": [],
+      "ball_losses": [],
+      "good_runs": [
+        {
+          "action_id": "51acb946",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0.07873015873015873,
+            "end_s": 2.361904761904762,
+            "start_frame": 2,
+            "end_frame": 60
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "description": "High-intensity run",
+            "max_speed_ms": 81.29,
+            "kind": "good_run"
+          }
+        }
+      ],
+      "movement_stats": {
+        "distance_m": 115.65,
+        "max_speed_ms": 81.29,
+        "avg_speed_ms": 50.65
+      }
+    },
+    "team_1_player_2": {
+      "player_key": "team_1_player_2",
+      "counts": {
+        "touches": 0,
+        "passes": 0,
+        "movements": 1,
+        "positioning": 9,
+        "mistakes": 0,
+        "good_decisions": 5,
+        "bad_decisions": 0,
+        "opportunities_missed": 0,
+        "recommendations": 0,
+        "specific_moments": 0,
+        "ball_losses": 0,
+        "good_runs": 1
+      },
+      "touches": [],
+      "passes": [],
+      "movements": [
+        {
+          "action_id": "873de34e",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 781.77,
+            "max_speed_ms": 1261.97,
+            "avg_speed_ms": 472.85
+          }
+        }
+      ],
+      "positioning": [
+        {
+          "action_id": "efd75228",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.8977777777777778,
+            "end_s": 1.1022222222222222,
+            "start_frame": 4,
+            "end_frame": 28
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "1_0",
+            "pitch_pos": [
+              49.0,
+              4.7
+            ]
+          }
+        },
+        {
+          "action_id": "450d495f",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.819047619047619,
+            "end_s": 1.180952380952381,
+            "start_frame": 6,
+            "end_frame": 30
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "1_2",
+            "pitch_pos": [
+              51.3,
+              50.8
+            ]
+          }
+        },
+        {
+          "action_id": "d2fa89b1",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.7403174603174603,
+            "end_s": 1.2596825396825397,
+            "start_frame": 8,
+            "end_frame": 32
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "0_2",
+            "pitch_pos": [
+              29.7,
+              46.3
+            ]
+          }
+        },
+        {
+          "action_id": "54a4f2c4",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.6615873015873015,
+            "end_s": 1.3384126984126985,
+            "start_frame": 10,
+            "end_frame": 34
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "2_0",
+            "pitch_pos": [
+              88.3,
+              20.5
+            ]
+          }
+        },
+        {
+          "action_id": "0b2966c0",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.5828571428571427,
+            "end_s": 1.4171428571428573,
+            "start_frame": 12,
+            "end_frame": 36
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "0_0",
+            "pitch_pos": [
+              23.1,
+              -3.6
+            ]
+          }
+        },
+        {
+          "action_id": "ccaf7c3f",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.504126984126984,
+            "end_s": 1.495873015873016,
+            "start_frame": 14,
+            "end_frame": 38
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              108.2,
+              4.2
+            ]
+          }
+        },
+        {
+          "action_id": "e45d2006",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.3466666666666667,
+            "end_s": 1.6533333333333333,
+            "start_frame": 18,
+            "end_frame": 42
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "0_0",
+            "pitch_pos": [
+              15.3,
+              -7.0
+            ]
+          }
+        },
+        {
+          "action_id": "5c0fca41",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.2831746031746034,
+            "end_s": 2.2831746031746034,
+            "start_frame": 34,
+            "end_frame": 58
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              108.6,
+              7.2
+            ]
+          }
+        },
+        {
+          "action_id": "d03d0df7",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.36190476190476195,
+            "end_s": 2.361904761904762,
+            "start_frame": 36,
+            "end_frame": 60
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_1",
+            "pitch_pos": [
+              113.6,
+              34.3
+            ]
+          }
+        }
+      ],
+      "mistakes": [],
+      "good_decisions": [
+        {
+          "action_id": "873de34e",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 781.77,
+            "max_speed_ms": 1261.97,
+            "avg_speed_ms": 472.85
+          }
+        },
+        {
+          "action_id": "54a4f2c4",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.6615873015873015,
+            "end_s": 1.3384126984126985,
+            "start_frame": 10,
+            "end_frame": 34
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "2_0",
+            "pitch_pos": [
+              88.3,
+              20.5
+            ]
+          }
+        },
+        {
+          "action_id": "ccaf7c3f",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.504126984126984,
+            "end_s": 1.495873015873016,
+            "start_frame": 14,
+            "end_frame": 38
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              108.2,
+              4.2
+            ]
+          }
+        },
+        {
+          "action_id": "5c0fca41",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.2831746031746034,
+            "end_s": 2.2831746031746034,
+            "start_frame": 34,
+            "end_frame": 58
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              108.6,
+              7.2
+            ]
+          }
+        },
+        {
+          "action_id": "d03d0df7",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.36190476190476195,
+            "end_s": 2.361904761904762,
+            "start_frame": 36,
+            "end_frame": 60
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_1",
+            "pitch_pos": [
+              113.6,
+              34.3
+            ]
+          }
+        }
+      ],
+      "bad_decisions": [],
+      "opportunities_missed": [],
+      "recommendations": [],
+      "specific_moments": [],
+      "ball_losses": [],
+      "good_runs": [
+        {
+          "action_id": "11cac83f",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0.7085714285714286,
+            "end_s": 2.361904761904762,
+            "start_frame": 18,
+            "end_frame": 60
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "description": "High-intensity run",
+            "max_speed_ms": 1261.97,
+            "kind": "good_run"
+          }
+        }
+      ],
+      "movement_stats": {
+        "distance_m": 781.77,
+        "max_speed_ms": 1261.97,
+        "avg_speed_ms": 472.85
+      }
+    },
+    "team_1_player_3": {
+      "player_key": "team_1_player_3",
+      "counts": {
+        "touches": 0,
+        "passes": 0,
+        "movements": 1,
+        "positioning": 3,
+        "mistakes": 0,
+        "good_decisions": 3,
+        "bad_decisions": 0,
+        "opportunities_missed": 0,
+        "recommendations": 0,
+        "specific_moments": 0,
+        "ball_losses": 0,
+        "good_runs": 0
+      },
+      "touches": [],
+      "passes": [],
+      "movements": [
+        {
+          "action_id": "fc1f60d4",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 411.77,
+            "max_speed_ms": 1229.37,
+            "avg_speed_ms": 653.77
+          }
+        }
+      ],
+      "positioning": [
+        {
+          "action_id": "35494adf",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.819047619047619,
+            "end_s": 1.180952380952381,
+            "start_frame": 6,
+            "end_frame": 30
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "2_1",
+            "pitch_pos": [
+              101.6,
+              27.6
+            ]
+          }
+        },
+        {
+          "action_id": "b9f7694a",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.6615873015873015,
+            "end_s": 1.3384126984126985,
+            "start_frame": 10,
+            "end_frame": 34
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "0_0",
+            "pitch_pos": [
+              28.2,
+              -2.1
+            ]
+          }
+        },
+        {
+          "action_id": "fd053ea1",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.5828571428571427,
+            "end_s": 1.4171428571428573,
+            "start_frame": 12,
+            "end_frame": 36
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              111.9,
+              7.0
+            ]
+          }
+        }
+      ],
+      "mistakes": [],
+      "good_decisions": [
+        {
+          "action_id": "fc1f60d4",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 411.77,
+            "max_speed_ms": 1229.37,
+            "avg_speed_ms": 653.77
+          }
+        },
+        {
+          "action_id": "35494adf",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.819047619047619,
+            "end_s": 1.180952380952381,
+            "start_frame": 6,
+            "end_frame": 30
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "2_1",
+            "pitch_pos": [
+              101.6,
+              27.6
+            ]
+          }
+        },
+        {
+          "action_id": "fd053ea1",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.5828571428571427,
+            "end_s": 1.4171428571428573,
+            "start_frame": 12,
+            "end_frame": 36
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              111.9,
+              7.0
+            ]
+          }
+        }
+      ],
+      "bad_decisions": [],
+      "opportunities_missed": [],
+      "recommendations": [],
+      "specific_moments": [],
+      "ball_losses": [],
+      "good_runs": [],
+      "movement_stats": {
+        "distance_m": 411.77,
+        "max_speed_ms": 1229.37,
+        "avg_speed_ms": 653.77
+      }
+    },
+    "team_2_player_2": {
+      "player_key": "team_2_player_2",
+      "counts": {
+        "touches": 0,
+        "passes": 0,
+        "movements": 1,
+        "positioning": 7,
+        "mistakes": 0,
+        "good_decisions": 4,
+        "bad_decisions": 0,
+        "opportunities_missed": 0,
+        "recommendations": 0,
+        "specific_moments": 0,
+        "ball_losses": 0,
+        "good_runs": 1
+      },
+      "touches": [],
+      "passes": [],
+      "movements": [
+        {
+          "action_id": "a6b8ccd5",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 452.89,
+            "max_speed_ms": 1158.25,
+            "avg_speed_ms": 287.62
+          }
+        }
+      ],
+      "positioning": [
+        {
+          "action_id": "f3ec593c",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.9765079365079365,
+            "end_s": 1.0234920634920635,
+            "start_frame": 2,
+            "end_frame": 26
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "1_0",
+            "pitch_pos": [
+              59.8,
+              8.6
+            ]
+          }
+        },
+        {
+          "action_id": "60b68945",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.8977777777777778,
+            "end_s": 1.1022222222222222,
+            "start_frame": 4,
+            "end_frame": 28
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "1_2",
+            "pitch_pos": [
+              62.1,
+              53.6
+            ]
+          }
+        },
+        {
+          "action_id": "5f568bba",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.819047619047619,
+            "end_s": 1.180952380952381,
+            "start_frame": 6,
+            "end_frame": 30
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "1_0",
+            "pitch_pos": [
+              40.3,
+              1.7
+            ]
+          }
+        },
+        {
+          "action_id": "38e1ef15",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.7403174603174603,
+            "end_s": 1.2596825396825397,
+            "start_frame": 8,
+            "end_frame": 32
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "0_0",
+            "pitch_pos": [
+              32.5,
+              -0.0
+            ]
+          }
+        },
+        {
+          "action_id": "d4020e59",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.42539682539682544,
+            "end_s": 1.5746031746031746,
+            "start_frame": 16,
+            "end_frame": 40
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              105.6,
+              4.4
+            ]
+          }
+        },
+        {
+          "action_id": "438b282e",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.3466666666666667,
+            "end_s": 1.6533333333333333,
+            "start_frame": 18,
+            "end_frame": 42
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "2_0",
+            "pitch_pos": [
+              103.3,
+              4.5
+            ]
+          }
+        },
+        {
+          "action_id": "86a3ff4f",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.046984126984126906,
+            "end_s": 2.046984126984127,
+            "start_frame": 28,
+            "end_frame": 52
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              106.0,
+              1.3
+            ]
+          }
+        }
+      ],
+      "mistakes": [],
+      "good_decisions": [
+        {
+          "action_id": "a6b8ccd5",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 452.89,
+            "max_speed_ms": 1158.25,
+            "avg_speed_ms": 287.62
+          }
+        },
+        {
+          "action_id": "d4020e59",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.42539682539682544,
+            "end_s": 1.5746031746031746,
+            "start_frame": 16,
+            "end_frame": 40
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              105.6,
+              4.4
+            ]
+          }
+        },
+        {
+          "action_id": "438b282e",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.3466666666666667,
+            "end_s": 1.6533333333333333,
+            "start_frame": 18,
+            "end_frame": 42
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "2_0",
+            "pitch_pos": [
+              103.3,
+              4.5
+            ]
+          }
+        },
+        {
+          "action_id": "86a3ff4f",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.046984126984126906,
+            "end_s": 2.046984126984127,
+            "start_frame": 28,
+            "end_frame": 52
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "zone": "3_0",
+            "pitch_pos": [
+              106.0,
+              1.3
+            ]
+          }
+        }
+      ],
+      "bad_decisions": [],
+      "opportunities_missed": [],
+      "recommendations": [],
+      "specific_moments": [],
+      "ball_losses": [],
+      "good_runs": [
+        {
+          "action_id": "75b93eb8",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0.7873015873015873,
+            "end_s": 2.361904761904762,
+            "start_frame": 20,
+            "end_frame": 60
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "description": "High-intensity run",
+            "max_speed_ms": 1158.25,
+            "kind": "good_run"
+          }
+        }
+      ],
+      "movement_stats": {
+        "distance_m": 452.89,
+        "max_speed_ms": 1158.25,
+        "avg_speed_ms": 287.62
+      }
+    },
+    "team_1_player_4": {
+      "player_key": "team_1_player_4",
+      "counts": {
+        "touches": 0,
+        "passes": 0,
+        "movements": 1,
+        "positioning": 2,
+        "mistakes": 0,
+        "good_decisions": 1,
+        "bad_decisions": 0,
+        "opportunities_missed": 0,
+        "recommendations": 0,
+        "specific_moments": 0,
+        "ball_losses": 0,
+        "good_runs": 1
+      },
+      "touches": [],
+      "passes": [],
+      "movements": [
+        {
+          "action_id": "9c065620",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 139.91,
+            "max_speed_ms": 958.12,
+            "avg_speed_ms": 88.86
+          }
+        }
+      ],
+      "positioning": [
+        {
+          "action_id": "2488179d",
+          "action_type": "positioning",
+          "time": {
+            "start_s": -0.6615873015873015,
+            "end_s": 1.3384126984126985,
+            "start_frame": 10,
+            "end_frame": 34
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "0_1",
+            "pitch_pos": [
+              27.0,
+              42.5
+            ]
+          }
+        },
+        {
+          "action_id": "82c14eac",
+          "action_type": "positioning",
+          "time": {
+            "start_s": 0.36190476190476195,
+            "end_s": 2.361904761904762,
+            "start_frame": 36,
+            "end_frame": 60
+          },
+          "decision": "neutral",
+          "recommendation": null,
+          "metadata": {
+            "zone": "1_1",
+            "pitch_pos": [
+              35.1,
+              30.8
+            ]
+          }
+        }
+      ],
+      "mistakes": [],
+      "good_decisions": [
+        {
+          "action_id": "9c065620",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 139.91,
+            "max_speed_ms": 958.12,
+            "avg_speed_ms": 88.86
+          }
+        }
+      ],
+      "bad_decisions": [],
+      "opportunities_missed": [],
+      "recommendations": [],
+      "specific_moments": [],
+      "ball_losses": [],
+      "good_runs": [
+        {
+          "action_id": "b927a254",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0.7873015873015873,
+            "end_s": 2.361904761904762,
+            "start_frame": 20,
+            "end_frame": 60
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "description": "High-intensity run",
+            "max_speed_ms": 958.12,
+            "kind": "good_run"
+          }
+        }
+      ],
+      "movement_stats": {
+        "distance_m": 139.91,
+        "max_speed_ms": 958.12,
+        "avg_speed_ms": 88.86
+      }
+    },
+    "team_1_player_5": {
+      "player_key": "team_1_player_5",
+      "counts": {
+        "touches": 0,
+        "passes": 0,
+        "movements": 1,
+        "positioning": 0,
+        "mistakes": 0,
+        "good_decisions": 1,
+        "bad_decisions": 0,
+        "opportunities_missed": 0,
+        "recommendations": 0,
+        "specific_moments": 0,
+        "ball_losses": 0,
+        "good_runs": 0
+      },
+      "touches": [],
+      "passes": [],
+      "movements": [
+        {
+          "action_id": "4fb7bc87",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 16.38,
+            "max_speed_ms": 25.26,
+            "avg_speed_ms": 18.92
+          }
+        }
+      ],
+      "positioning": [],
+      "mistakes": [],
+      "good_decisions": [
+        {
+          "action_id": "4fb7bc87",
+          "action_type": "movement",
+          "time": {
+            "start_s": 0,
+            "end_s": 2.48,
+            "start_frame": 0,
+            "end_frame": 0
+          },
+          "decision": "good",
+          "recommendation": null,
+          "metadata": {
+            "distance_m": 16.38,
+            "max_speed_ms": 25.26,
+            "avg_speed_ms": 18.92
+          }
+        }
+      ],
+      "bad_decisions": [],
+      "opportunities_missed": [],
+      "recommendations": [],
+      "specific_moments": [],
+      "ball_losses": [],
+      "good_runs": [],
+      "movement_stats": {
+        "distance_m": 16.38,
+        "max_speed_ms": 25.26,
+        "avg_speed_ms": 18.92
+      }
+    }
+  },
+  "summary": {
+    "total_players": 7,
+    "total_teams": 2,
+    "total_touches": 0,
+    "total_passes": 0,
+    "total_opportunities_missed": 0,
+    "annotated_video": "E:\\work\\1.AI\\FootBallProject\\football-analyze\\data\\outputs\\3dcf578f\\annotated_web.mp4"
+  },
+  "chatbot_context": {
+    "description": "Soccer match analysis data structured for AI chatbot queries",
+    "queryable_fields": [
+      "player_analytics.{player_key}.touches",
+      "player_analytics.{player_key}.passes",
+      "player_analytics.{player_key}.movement_stats",
+      "player_analytics.{player_key}.opportunities_missed",
+      "summary"
+    ],
+    "player_keys": [
+      "team_1_player_1",
+      "team_2_player_1",
+      "team_1_player_2",
+      "team_1_player_3",
+      "team_2_player_2",
+      "team_1_player_4",
+      "team_1_player_5"
+    ],
+    "team_names": [
+      "Team_1",
+      "Team_2"
+    ]
+  }
+}

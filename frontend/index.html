@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Football AI Analyst</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="app-container">
+      <header class="header">
+        <h1>⚽ Football AI Analyst</h1>
+
+        <p>AI-powered soccer performance analysis</p>
+      </header>
+
+      <section class="player-section">
+        <label> Select Player </label>
+
+        <select id="playerSelect">
+          <option value="team_1_player_1">Team 1 - Player 1</option>
+
+          <option value="team_2_player_1">Team 2 - Player 1</option>
+        </select>
+      </section>
+
+      <section id="chatWindow" class="chat-window">
+        <div class="message bot">
+          <div class="bubble">
+            Hello! I am your soccer analyst. Ask me anything about the player.
+          </div>
+        </div>
+      </section>
+
+      <section class="input-section">
+        <input
+          id="messageInput"
+          type="text"
+          placeholder="Ask about player performance..."
+        />
+
+        <button id="sendButton">Send</button>
+      </section>
+    </div>
+
+    <script src="js/api.js"></script>
+
+    <script src="js/player.js"></script>
+
+    <script src="js/chat.js"></script>
+  </body>
+</html>
